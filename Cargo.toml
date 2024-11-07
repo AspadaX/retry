@@ -1,0 +1,22 @@
+[package]
+name = "retry"
+version = "0.1.0"
+edition = "2021"
+authors = ["Xinyu Bao <baoxinyuworks@163.com>"]
+description = "A CLI tool that retries a command until it succeeds or hits a user-defined retry limit."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/AspadaX/retry"
+keywords = ["CLI", "retry", "command", "tool"]
+categories = ["command-line-utilities", "utilities"]
+homepage = "https://github.com/AspadaX/retry"
+documentation = "https://docs.rs/retry"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+
+[features]
+default = []
+
+[package.metadata.docs.rs]
+all-features = true
