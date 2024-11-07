@@ -1,4 +1,4 @@
-# Retry Command CLI Tool
+# Retri
 
 A command-line application that retries any system command until it succeeds or a specified retry limit is reached. This tool is useful for automating tasks that may fail intermittently and need to be retried.
 
