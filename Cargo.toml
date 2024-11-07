@@ -1,5 +1,5 @@
 [package]
-name = "retri"
+name = "retry"
 version = "0.1.0"
 edition = "2021"
 authors = ["Xinyu Bao <baoxinyuworks@163.com>"]
